@@ -13,6 +13,9 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+# macOS
+.DS_Store
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -60,3 +63,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# App packages
+*.ipa
+*.dSYM
+*.dSYM.zip
