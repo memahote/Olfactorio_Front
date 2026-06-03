@@ -11,11 +11,14 @@ struct LoginView: View {
     @Bindable var authViewModel : AuthViewModel
     var body: some View {
     
-        VStack() {
+        Spacer()
+        VStack(spacing: -10) {
             CustomTextField(fieldValue: $authViewModel.email, iconName: "envelope", label: "Email", isSecure: false)
             
             CustomTextField(fieldValue: $authViewModel.password, iconName: "lock", label: "Mot de passe", isSecure: true)
         }
+        
+        Spacer()
     }
 }
 
